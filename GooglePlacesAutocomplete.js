@@ -737,6 +737,7 @@ export default class GooglePlacesAutocomplete extends Component {
               placeholderTextColor={this.props.placeholderTextColor}
               onFocus={onFocus ? () => {this._onFocus(); onFocus()} : this._onFocus}
               onBlur={onBlur ? () => {this._onBlur(); onBlur()} : this._onBlur}
+              selectionColor={this.props.selectionColor}
               underlineColorAndroid={this.props.underlineColorAndroid}
               clearButtonMode={
                 clearButtonMode ? clearButtonMode : "while-editing"
